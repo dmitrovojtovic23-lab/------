@@ -23,4 +23,4 @@ min_len = min(len(tuple1), len(tuple2), len(tuple3))
 for i in range(min_len):
     if tuple1[i] == tuple2[i] == tuple3[i]:
         same_pos.append(tuple1[i])
-print("Завдання 3 (на одній позиції):", same_pos)
+print(same_pos)
